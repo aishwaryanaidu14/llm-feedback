@@ -2,7 +2,7 @@
 
 A script to obtain textual feedback by LLMs of codes written in CS-F111 labs, BITS Pilani, Goa Campus. 
 
-## 🔧 Setup & Usage
+## Setup & Usage
 
 1. **Install dependencies:**
 
@@ -11,11 +11,12 @@ A script to obtain textual feedback by LLMs of codes written in CS-F111 labs, BI
 
 2. **Create a .env file in the project root and add Gemini API key:**
 
-   GEMINI_API_KEY='your key here'
+   ```GEMINI_API_KEY='your key here'```
 
 3. **Run the script with the folder path of the extracted files:**
+
     ```python feedback.py <folder_path>```
 
    Example: 
-   ```python feedback.py all_extracted_files```
+   ```python feedback.py combined_extracted_files```
 
