@@ -13,7 +13,12 @@ A script to obtain textual feedback by LLMs of codes written in CS-F111 labs, BI
 
    ```GEMINI_API_KEY='your key here'```
 
-3. **Run the script with the folder path of the extracted files:**
+
+3. **Extract the folder of c files in the root directory**
+
+   I've sent the zip on Slack.
+
+4. **Run the script with the folder path of the extracted files:**
 
     ```python feedback.py <folder_path>```
 
